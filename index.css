@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+a{
+    color: rgb(162, 247, 239);
+}
+.column {
+    float: left;
+    width: 32%;
+    padding: 100px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
