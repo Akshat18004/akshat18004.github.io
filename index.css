@@ -5,53 +5,5 @@ body{
 a{
     color: rgb(162, 247, 239);
 }
-.column {
-    float: left;
-    width: 32%;
-    padding: 100px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-html, body { height: 100%; width: 100%; margin: 0; }
-
-
-div.row {
-
-  display: block;
-
-  height: 100%;
-
-  position: relative;
-
-}
-
-div.column {
-
-  display: block;
-
-  height: 100%;
-
-  position: relative;
-
-}
-
-img {
-
-  max-width: 100%;
-
-  max-height: 100%;
-
-  margin: 0 auto;
-
-  width: auto;
-
-  display: block;
-
-}
 
