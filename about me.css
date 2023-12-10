@@ -5,3 +5,13 @@ body{
 a{
     color: rgb(162, 247, 239);
 }
+
+div {
+
+  display: block;
+
+  height: 100%;
+
+  position: relative;
+
+}
